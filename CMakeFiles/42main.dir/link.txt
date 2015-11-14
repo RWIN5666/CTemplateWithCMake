@@ -1,0 +1,1 @@
+/usr/bin/cc   -W -Wall -ansi -pedantic -std=c99 -Wfatal-errors -g    CMakeFiles/42main.dir/main/main.c.o  -o 42main -rdynamic src/dessinterminal/libdessinterminal.so -Wl,-rpath,/home/erwin/Documents/TemplateC/src/dessinterminal 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+./include/dessinterminal/drawterminal.h
+
+/home/erwin/Documents/TemplateC/main/main.c
+stdio.h
+-
+stdlib.h
+-
+termios.h
+-
+fcntl.h
+-
+unistd.h
+-
+string.h
+-
+stdint.h
+-
+poll.h
+-
+assert.h
+-
+pthread.h
+-
+unistd.h
+-
+dessinterminal/drawterminal.h
+/home/erwin/Documents/TemplateC/main/dessinterminal/drawterminal.h
+
