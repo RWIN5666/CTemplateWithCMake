@@ -6,19 +6,3 @@
 
 #IncludeRegexTransform: 
 
-./include/dessinterminal/drawterminal.h
-
-/home/erwin/Documents/TemplateC/src/dessinterminal/drawterminal.c
-stdio.h
--
-stdlib.h
--
-fcntl.h
--
-unistd.h
--
-string.h
--
-dessinterminal/drawterminal.h
-/home/erwin/Documents/TemplateC/src/dessinterminal/dessinterminal/drawterminal.h
-

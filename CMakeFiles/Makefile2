@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erwin/Documents/TemplateC
+CMAKE_SOURCE_DIR = /home/erwin/Documents/TestsProg/TestJSON
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erwin/Documents/TemplateC
+CMAKE_BINARY_DIR = /home/erwin/Documents/TestsProg/TestJSON
 
 #=============================================================================
 # Target rules for target CMakeFiles/42main.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/erwin/Documents/TemplateC
 CMakeFiles/42main.dir/all: src/dessinterminal/CMakeFiles/dessinterminal.dir/all
 	$(MAKE) -f CMakeFiles/42main.dir/build.make CMakeFiles/42main.dir/depend
 	$(MAKE) -f CMakeFiles/42main.dir/build.make CMakeFiles/42main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/erwin/Documents/TemplateC/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles  1
 	@echo "Built target 42main"
 .PHONY : CMakeFiles/42main.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/42main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/42main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TemplateC/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/42main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TemplateC/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles 0
 .PHONY : CMakeFiles/42main.dir/rule
 
 # Convenience name for target.
@@ -109,7 +109,7 @@ src/dessinterminal/preinstall:
 src/dessinterminal/CMakeFiles/dessinterminal.dir/all:
 	$(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/depend
 	$(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/erwin/Documents/TemplateC/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles  2
 	@echo "Built target dessinterminal"
 .PHONY : src/dessinterminal/CMakeFiles/dessinterminal.dir/all
 
@@ -119,9 +119,9 @@ all: src/dessinterminal/CMakeFiles/dessinterminal.dir/all
 
 # Build rule for subdir invocation for target.
 src/dessinterminal/CMakeFiles/dessinterminal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TemplateC/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/CMakeFiles/dessinterminal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TemplateC/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles 0
 .PHONY : src/dessinterminal/CMakeFiles/dessinterminal.dir/rule
 
 # Convenience name for target.

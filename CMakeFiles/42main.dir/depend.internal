@@ -3,4 +3,6 @@
 
 CMakeFiles/42main.dir/main/main.c.o
  ./include/dessinterminal/drawterminal.h
- /home/erwin/Documents/TemplateC/main/main.c
+ ./include/jansson/jansson.h
+ ./include/jansson/jansson_config.h
+ /home/erwin/Documents/TestsProg/TestJSON/main/main.c

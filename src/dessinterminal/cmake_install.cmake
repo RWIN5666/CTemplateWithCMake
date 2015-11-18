@@ -1,4 +1,4 @@
-# Install script for directory: /home/erwin/Documents/TemplateC/src/dessinterminal
+# Install script for directory: /home/erwin/Documents/TestsProg/TestJSON/src/dessinterminal
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -10,11 +10,14 @@ project($PRJ)
 
 include_directories(
 	./include
+	${CMAKE_CURRENT_SOURCE_DIR}
 )
+
+
+
 
 add_subdirectory(src/dessinterminal)
 
-
 add_executable(${PRJ} ${MAIN})
-target_link_libraries(${PRJ} dessinterminal )
+target_link_libraries(${PRJ} dessinterminal  ${CMAKE_CURRENT_SOURCE_DIR}/lib/jansson/libjansson.a)
 

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erwin/Documents/TemplateC
+CMAKE_SOURCE_DIR = /home/erwin/Documents/TestsProg/TestJSON
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erwin/Documents/TemplateC
+CMAKE_BINARY_DIR = /home/erwin/Documents/TestsProg/TestJSON
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,14 +69,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/erwin/Documents/TemplateC && $(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TemplateC/CMakeFiles /home/erwin/Documents/TemplateC/src/dessinterminal/CMakeFiles/progress.marks
-	cd /home/erwin/Documents/TemplateC && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TemplateC/CMakeFiles 0
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles /home/erwin/Documents/TestsProg/TestJSON/src/dessinterminal/CMakeFiles/progress.marks
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/erwin/Documents/TemplateC && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/clean
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/clean
 .PHONY : clean
 
 # The main clean target
@@ -85,22 +85,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/erwin/Documents/TemplateC && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/preinstall
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/erwin/Documents/TemplateC && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/preinstall
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/erwin/Documents/TemplateC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/dessinterminal/CMakeFiles/dessinterminal.dir/rule:
-	cd /home/erwin/Documents/TemplateC && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/CMakeFiles/dessinterminal.dir/rule
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(MAKE) -f CMakeFiles/Makefile2 src/dessinterminal/CMakeFiles/dessinterminal.dir/rule
 .PHONY : src/dessinterminal/CMakeFiles/dessinterminal.dir/rule
 
 # Convenience name for target.
@@ -109,7 +109,7 @@ dessinterminal: src/dessinterminal/CMakeFiles/dessinterminal.dir/rule
 
 # fast build rule for target.
 dessinterminal/fast:
-	cd /home/erwin/Documents/TemplateC && $(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/build
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/build
 .PHONY : dessinterminal/fast
 
 drawterminal.o: drawterminal.c.o
@@ -117,7 +117,7 @@ drawterminal.o: drawterminal.c.o
 
 # target to build an object file
 drawterminal.c.o:
-	cd /home/erwin/Documents/TemplateC && $(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/drawterminal.c.o
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/drawterminal.c.o
 .PHONY : drawterminal.c.o
 
 drawterminal.i: drawterminal.c.i
@@ -125,7 +125,7 @@ drawterminal.i: drawterminal.c.i
 
 # target to preprocess a source file
 drawterminal.c.i:
-	cd /home/erwin/Documents/TemplateC && $(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/drawterminal.c.i
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/drawterminal.c.i
 .PHONY : drawterminal.c.i
 
 drawterminal.s: drawterminal.c.s
@@ -133,7 +133,7 @@ drawterminal.s: drawterminal.c.s
 
 # target to generate assembly for a file
 drawterminal.c.s:
-	cd /home/erwin/Documents/TemplateC && $(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/drawterminal.c.s
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(MAKE) -f src/dessinterminal/CMakeFiles/dessinterminal.dir/build.make src/dessinterminal/CMakeFiles/dessinterminal.dir/drawterminal.c.s
 .PHONY : drawterminal.c.s
 
 # Help Target
@@ -159,6 +159,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/erwin/Documents/TemplateC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -8,7 +8,25 @@
 
 ./include/dessinterminal/drawterminal.h
 
-/home/erwin/Documents/TemplateC/main/main.c
+./include/jansson/jansson.h
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+jansson/jansson_config.h
+-
+
+./include/jansson/jansson_config.h
+stdint.h
+-
+inttypes.h
+-
+sys/types.h
+-
+
+/home/erwin/Documents/TestsProg/TestJSON/main/main.c
 stdio.h
 -
 stdlib.h
@@ -32,5 +50,7 @@ pthread.h
 unistd.h
 -
 dessinterminal/drawterminal.h
-/home/erwin/Documents/TemplateC/main/dessinterminal/drawterminal.h
+/home/erwin/Documents/TestsProg/TestJSON/main/dessinterminal/drawterminal.h
+jansson/jansson.h
+/home/erwin/Documents/TestsProg/TestJSON/main/jansson/jansson.h
 

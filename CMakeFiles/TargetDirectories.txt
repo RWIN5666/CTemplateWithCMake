@@ -1,2 +1,2 @@
-/home/erwin/Documents/TemplateC/CMakeFiles/42main.dir
-/home/erwin/Documents/TemplateC/src/dessinterminal/CMakeFiles/dessinterminal.dir
+/home/erwin/Documents/TestsProg/TestJSON/CMakeFiles/42main.dir
+/home/erwin/Documents/TestsProg/TestJSON/src/dessinterminal/CMakeFiles/dessinterminal.dir

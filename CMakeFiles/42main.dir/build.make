@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erwin/Documents/TemplateC
+CMAKE_SOURCE_DIR = /home/erwin/Documents/TestsProg/TestJSON
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erwin/Documents/TemplateC
+CMAKE_BINARY_DIR = /home/erwin/Documents/TestsProg/TestJSON
 
 # Include any dependencies generated for this target.
 include CMakeFiles/42main.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/42main.dir/flags.make
 
 CMakeFiles/42main.dir/main/main.c.o: CMakeFiles/42main.dir/flags.make
 CMakeFiles/42main.dir/main/main.c.o: main/main.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/erwin/Documents/TemplateC/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/42main.dir/main/main.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/42main.dir/main/main.c.o   -c /home/erwin/Documents/TemplateC/main/main.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/42main.dir/main/main.c.o   -c /home/erwin/Documents/TestsProg/TestJSON/main/main.c
 
 CMakeFiles/42main.dir/main/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/42main.dir/main/main.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/erwin/Documents/TemplateC/main/main.c > CMakeFiles/42main.dir/main/main.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/erwin/Documents/TestsProg/TestJSON/main/main.c > CMakeFiles/42main.dir/main/main.c.i
 
 CMakeFiles/42main.dir/main/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/42main.dir/main/main.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/erwin/Documents/TemplateC/main/main.c -o CMakeFiles/42main.dir/main/main.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/erwin/Documents/TestsProg/TestJSON/main/main.c -o CMakeFiles/42main.dir/main/main.c.s
 
 CMakeFiles/42main.dir/main/main.c.o.requires:
 .PHONY : CMakeFiles/42main.dir/main/main.c.o.requires
@@ -82,6 +82,7 @@ CMakeFiles/42main.dir/main/main.c.o.provides.build: CMakeFiles/42main.dir/main/m
 42main: CMakeFiles/42main.dir/main/main.c.o
 42main: CMakeFiles/42main.dir/build.make
 42main: src/dessinterminal/libdessinterminal.so
+42main: lib/jansson/libjansson.a
 42main: CMakeFiles/42main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable 42main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/42main.dir/link.txt --verbose=$(VERBOSE)
@@ -98,6 +99,6 @@ CMakeFiles/42main.dir/clean:
 .PHONY : CMakeFiles/42main.dir/clean
 
 CMakeFiles/42main.dir/depend:
-	cd /home/erwin/Documents/TemplateC && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erwin/Documents/TemplateC /home/erwin/Documents/TemplateC /home/erwin/Documents/TemplateC /home/erwin/Documents/TemplateC /home/erwin/Documents/TemplateC/CMakeFiles/42main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/erwin/Documents/TestsProg/TestJSON && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/erwin/Documents/TestsProg/TestJSON /home/erwin/Documents/TestsProg/TestJSON /home/erwin/Documents/TestsProg/TestJSON /home/erwin/Documents/TestsProg/TestJSON /home/erwin/Documents/TestsProg/TestJSON/CMakeFiles/42main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/42main.dir/depend
 
